@@ -1,0 +1,85 @@
+#body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#cover_div {
+    z-index: 2;
+    background: #ea3a07;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+#title_div {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#bar_div {
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-right: 0px;
+    background: #ea3a07;
+    color: white;
+    opacity: 0.8;
+
+}
+
+#trademark_div {
+    width: 15%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main_div {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#list_div {
+    width: 80%;
+    background: #ea3a07;
+    opacity: 0.8;
+    color: white;
+    float: left;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#content_div {
+    float: right;
+    overflow-x: auto;
+    overflow-y: auto;
+}
