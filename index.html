@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <script type="text/javascript" src="index.js"></script>
+
+        <script type="text/javascript" src="jquery.js"></script>
+
+
+        <title>blog</title>
+
+    </head>
+
+
+    <body id="body">
+
+
+        <div id="cover_div"  onclick="display('bar_div')">
+
+            <div id="title_div">
+
+                <font size="6"><b>床前明月光，疑是地上霜。<br/>举头望明月，低头思故乡。</b></font></br>
+
+                <font size="7"><b>静<br/>夜<br/>思</b></font></br>
+
+                <font size="2"><b>李<br/>白</b></font>
+
+            </div>
+
+        </div>
+
+
+        <div id="bar_div" onclick="display('bar_div')">
+
+            <div id="trademark_div"><font size="6"><b>厷成个人博客</b></font></div>
+
+        </div>
+
+        <div id="main_div">
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+
+
+
+
+            // 显示或隐藏项目
+
+            function display(id) {
+
+                var traget=document.getElementById(id);
+
+                if(traget.style.display=="none"){
+
+                    traget.style.display="";
+
+                }else{
+
+                    traget.style.display="none";
+
+                }
+
+            }
+
+
+
+            // cover_div 隐藏动画
+
+            $(document).ready(function(){
+
+                $("#cover_div").click(function(){
+
+                    $("#cover_div").animate({
+
+                        top:'0px',
+
+                        left:'0px',
+
+                        opacity:'0.8',
+
+                        height:'0px',
+
+                    }, 600, display('cover_div'));
+
+                });
+
+            });
+
+
+
+            // cover_div 展示动画
+
+            $(document).ready(function(){
+
+                $("#bar_div").click(function(){
+
+                    $("#cover_div").animate({
+
+                        opacity:'1',
+
+                        height:document.documentElement.clientHeight + 'px',
+
+
+                    }, 700, display('cover_div'));
+
+                });
+
+            });
+
+
+        </script>
+
+
+    <body>
+
+
+</html>
