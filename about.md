@@ -6,6 +6,6 @@ permalink: /about/
 
 
 
-![HCPython](img\HCPython.jpg)
+![HCPython](./img/HCPython.jpg)
 
 微信公众号：Python 学习指南
