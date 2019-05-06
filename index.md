@@ -7,7 +7,9 @@ layout: home
 
 
 
-### 水龙吟·次韵章质夫杨花词
+<h1 class="page-heading">水龙吟·次韵章质夫杨花词</h1>
+
+
 
 宋代：苏轼
 
@@ -15,17 +17,5 @@ layout: home
 
 不恨此花飞尽，恨西园、落红难缀。晓来雨过，遗踪何在？一池萍碎。春色三分，二分尘土，一分流水。细看来，不是杨花，点点是离人泪。
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29818477&auto=1&height=66"></iframe>
 
-
-```
-. . .
-<p class="rss-subscribe">Subscribe
-<a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-. . .
-```
-
-```
-. . .
-  <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-. . .
-```
