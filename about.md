@@ -10,5 +10,11 @@ permalink: /about/
 
 
 
+| 项目         | Github 链接                                   |
+| ------------ | --------------------------------------------- |
+| 小白卡       | git@github.com:15083599773/whiteCard.git      |
+| 文本处理程序 | git@github.com:15083599773/textProcessing.git |
 
 
+
+Github 主页：<https://github.com/15083599773>
