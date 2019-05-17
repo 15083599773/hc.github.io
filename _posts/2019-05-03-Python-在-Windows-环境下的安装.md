@@ -9,13 +9,8 @@ categories: Python
 
 视频教程：
 
-<iframe 
-    height=450 
-    width=800 
-    src="http://v.qq.com/x/page/p0870tzjjh5.html" 
-    frameborder=0 
-    allowfullscreen>
-</iframe>
+​	[bilibili](https://www.bilibili.com/video/av52564523)	[腾讯视频](https://v.qq.com/x/page/p0870tzjjh5.html)
+
 
 
 
